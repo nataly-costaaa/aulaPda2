@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Exerc. 01</title>
+</head>
+<body>
+    
+    <!-- <p id="paragrafoTexto">Revisão do JavaScript</p>
+    <button type="button" onClick="document.getElementById('paragrafoTexto').style.backgroundColor = 'green'">Clique aqui...</button> -->
+
+    <p id="paragrafoTexto">Revisão do JavaScript</p>
+    <!-- <button type="button" onClick="alterarCorParagrafo">Clique aqui...</button> -->
+
+   <script>
+    var x;
+    x = document.getElementById("alterarParagrafoCor")
+    function alterarCor() {
+        console.log('Alteração da cor realizada com sucesso');
+        x.style.color="green";
+    }
+    x.onclick = alterarCor;
+   </script>
+</body>
+</html>

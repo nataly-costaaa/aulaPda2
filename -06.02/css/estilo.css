@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+   background-color: #F7F9AC;
+}
+p {
+    font-size: 14px;
+    color:navy;
+}
+.p1 {
+    text-transform: capitalize;
+}
+.p2 {
+    text-transform: uppercase;
+}
+.p3 {
+    text-transform: lowercase;
+}
+.p4 {
+    text-transform: none;
+}
+
+

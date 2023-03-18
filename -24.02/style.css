@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.menu li{
+    display: inline-block;
+    /* display: block; */
+    padding: 30px;
+    font-size: 25px;
+}
+.menu{
+    background-color: #eac016cf;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+p:first-letter{
+    font-size: 400%;
+    color: #f48a08cf;
+}
+p::first-line{
+    background-color: #eac016cf;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.Ex_Borda{
+    padding: 15px;
+    margin: 20px;
+}
+#Modelo1{
+    border: 2px solid #00ff26;
+    border-radius: 30px;
+    background: #00ff80e4;
+    width: 300px;
+    height: 300px;
+}
+#Modelo2{
+    border: 3px solid #003e80;
+    border-radius: 60px 30px;
+    width: 500px;
+    height: 200px;
+}
+#Modelo3{
+    background: #c78f00;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+#Modelo4{
+    background: #e9ff24cf;
+    border: 8px solid #e4f30d;
+    border-radius: 130px 15px 90px 50px;
+    width: 200px;
+    height: 100px;
+    padding: 40px;
+}
+#elipse{
+    background: #fb0606;
+    width: 100px;
+    height: 150px;
+    /* 50 e 100 para ficar na proporção */
+    border-radius: 50px/100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 20px;
+    padding: 0;
+}
+#elipse p{
+    padding: 70px 0 0 10px;
+    font-weight: bold;
+}

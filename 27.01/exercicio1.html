@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<h1>Responda!</h1>
+
+    <form action="" method="post">
+        <p>Digite seu Login:</p>
+        <p><input type="text" name="NomeUsuario" value="nome é obrigatório"></p>
+
+        <p>Senha</p>
+        <p><input type="password" name="SenhaUsuario"></p>
+
+        <img src="img/carrinho.jpg" alt="Carrinho de compras" width="250" height="250">
+
+        <p>Bem vindo a sua lista de compras</p>
+        <ul>
+            <li>Banana <input type="checkbox" name="OpcaoFruta" value="banana"></li>
+            <li>Maçã <input type="radio" name="OpcaoFruta" value="maca">
+                <ul>
+                    <li>Maçã Gala <input type="checkbox" name="OpcaoFruta" value="macaGala"></li>
+                    <li>Maça Verde <input type="checkbox" name="OpcaoFruta" value="macaVerde"></li>
+                </ul>
+            </li>
+            <li>Pêra <input type="checkbox" name="OpcaoFruta" value="pera"></li>
+            <li>Laranja <input type="checkbox" name="OpcaoFruta" value="laranja">
+                <ul>
+                    <li>Laranja Pêra <input type="checkbox" name="OpcaoFruta" value="laranjaPera"></li>
+                    <li>Laranja Lima <input type="checkbox" name="OpcaoFruta" value="laranjaLima"></li>
+                </ul>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

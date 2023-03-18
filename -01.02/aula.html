@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3 - 01.02</title>
+</head>
+<body>
+<!-- pesquisar sobre expressões regulares no HTML -->
+
+    <form action="" method="get">
+        <p>Types - diversos</p>
+        <p>Digite o seu celular  -> ultilizar as expressões regulares</p>
+        <!-- <p><input type="tel" name="Tel_User" placeholder="00-0000-00000" pattern="[0-9]{2}-[0-9]{4}-[0-9]{5}" required="required"></p> -->
+       
+
+        <p><input type="tel" name="Tel_User" placeholder="(00) 0 0000-0000" pattern="(\([0-9]{2}\))\s([0-9]?{1})?([0-9]{4})-([0-9]{4})" autofocus required="required"></p>
+
+        <p>Digite o seu e-mail</p>
+        <p><input type="email" name="email_User" placeholder="nome@teste.com" required="required"></p>
+
+        <p>Digite a url do seu blog:</p>
+        <p><input type="url" name="url_User" placeholder="http://www.teste.com" required="required"></p>
+
+
+
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>

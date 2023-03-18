@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body{
+    /* mudando a cor de fundo da página */
+    background-color: #F7F9AC;
+}
+h1{
+    /* centralizando o título na página */
+    text-align: center;
+    /* deixando texto do titulo em caixa alta */
+    text-transform: uppercase;
+    /* mudando a fonte do título h1 para Abril FatFace  */
+    font-family: "Abril FatFace", sans-serif;
+    /* espaçamento entre as letras do título */
+    letter-spacing: 3px;
+    /* determinando a cor do texto do título */
+    color: #dadad5ee;
+}
+#font{
+    /* determinado a fonte da font */
+    font-family: "Abril FatFace";
+}
+.paisagem{
+    /* colocando uma borda na imagem paisagem */
+    border-style: solid;
+    /* determinado a cor da borda da imagem paisagem */
+    border-color: #f1ca06;
+    /* determinado a largura da borda da imagem paisagem */
+    border-width: 3px;
+    /* a imagem paisagem está gerando uma caixa de elemento de bloco, gerando quebras de linha */
+    display: block;
+    /* determinado a largura da imagem paisagem */
+    width: 50%;
+    /* empurrando a imagem paisagem para a direita */
+    margin-left: auto;
+    /* empurrando a imagem paisagem para a esquerda */
+    margin-right: auto;
+}
+.bloco{
+    /* criando um degrade de forma diagonal no bloco da página */
+    background-image: linear-gradient(to bottom right, #feaa49, #c56c05);
+    /* determinando a margem do bloco */
+    margin: 30px 50px 30px 50px;
+    /* determinando uma distância entre o texto e a borda da margem */
+    padding: 30px 20px;
+    /* colocando uma borda na margem do bloco */
+    border-style: groove;
+    /* determinando a largura da borda */
+    border-width: 4px;
+    /* determinando a cor da borda */
+    border-color: #f1edd9ad;
+}
+#texto:first-letter{
+    /* determinando o tamanho da primeira letra do texto*/
+    font-size: 300%;
+    /* determinando a cor da primeira letra do texto */
+    color: #f1ca06;
+}
+#texto{
+    /* determinado a cor de fundo do bloco "texto" */
+    background-color: #edede7b0;
+    /* determinando uma distância entre o texto e a borda do bloco "texto */
+    padding: 20px;
+}    
+.corpoDoTexto{
+    /* justificando o texto */
+    text-align: justify;
+    /* indentando o texto */
+    text-indent: 25px;
+    /* espaçamento entre as letras do texto */
+    letter-spacing: 2px;
+    /* mudado a fonte do texto para Josefin Sans  */
+    font-family: "Josefin Sans", sans-serif;
+    /* determinando o tamanho do texto */
+    font-size: 20px;
+    /* ajustando a margem da página cima, direita, baixo, esquerda */
+    margin: 15px;
+}

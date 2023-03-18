@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Font_Titulo";
+    src:local(Terminal), url(C:/Windows/Fonts/Terminal);
+}
+@font-face {
+    font-family: "Font_Corpo";
+    src:local(Consolas), url(C:/Windows/Fonts/Consolas);
+}
+
+body {
+    background-color: #F7F9AC;
+    font-size: 14px;
+    color:navy;
+    
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #003236;
+    font-family: 'Font_Titulo', sans-serif;
+}
+.corpoDoTexto {
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    font-family: 'Font_Titulo', sans-serif;
+}
+.corpoDoTexto a {
+    color: #740001;
+    text-decoration: inherit;
+}
+a {
+    text-decoration: none;
+}
+.corpoDoTexto2 {
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    font-family: 'Font_Corpo', sans-serif;
+}
+.corpoDoTexto2 a{
+    color: #537402;
+}

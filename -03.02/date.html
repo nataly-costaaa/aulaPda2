@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4 - 03.02</title>
+</head>
+<body>
+    <!-- Dividir os arquivos css EXEMPLO: CCS rodapé, CSS topo do site. Criar uma ancora com link do css no html. -->
+    <!-- toda as interações devem estar em um arquivo externo CSS -->
+    <form action="" method="get">
+        <p> Data de nascimento:</p>
+        <p> <input type="date" name="DataNascimento" value="2023-02-03" min="1950-01-01" max="2023-02-03"> </p>
+ 
+        <p>Agendamento de consulta:</p>
+        <p><input type="date" name="AgendamentoConsulta" value="2023-02-03" min="2023-02-03" max="2023-02-18"></p>
+
+        <p>Data de nascimento (com horário):</p>
+        <p><input type="datetime-local" name="DataNascimentoDTL" value="2023-02-03" min="1910-01-01" max="2023-02-03" required="required"></p>
+
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>

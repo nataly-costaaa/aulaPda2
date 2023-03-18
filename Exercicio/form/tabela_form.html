@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Formulário</title>
+</head>
+<body>
+
+  <form action="action" method="post">
+    <table border="2">
+      <tr>
+        <th>Nome</th>
+        <td><input type="text" name="nome_User"></td>    
+        <th>Sobrenome</th>
+        <td><input type="text" name="sobrenome_User"></tr>        
+      </tr>
+      <tr>
+        <th>E-mail</th>
+        <td><input type="email" name="email_User" placeholder="nome@teste.com"></td>    
+        <th>Data de Nascimento:</th>
+        <td><input type="date" name="DataNascimento" value="2023-02-03" min="1950-01-01" max="2023-02-03"></td>  
+      </tr>
+      <tr>    
+        <th>Agendamento da consulta</th>
+        <td><input type="date" name="AgendamentoConsulta" value="2023-02-03" min="2023-02-03" max="2023-02-18"></td> 
+        <th>Agendamento da Entrevista:</th>
+        <td><input type="datetime-local" name="DataNascimentoDTL" value="2023-02-03" min="1910-01-01" max="2023-02-03" ></td>       
+      </tr>
+      <tr>
+        <th>Telefone:</th>
+        <td><input type="tel" name="Tel_User" placeholder="(00) 0 0000-0000" pattern="(\([0-9]{2}\))\s([0-9]?{1})?([0-9]{4})-([0-9]{4})"></td>
+        <th>Sexo:</th>
+        <td>
+          <select name="Sexo" id="Sexo">
+            <option value="M">Masculino</option>
+            <option value="F" selected>Feminino</option>
+            <option value="O">Outros</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Turno de preferencia:</th>
+        <td>
+          <p>Noite <input type="radio" name="opcaoManha" value="html"></p>
+          <p>Tarde <input type="radio" name="opcaoTarde" value="css"></p>
+          <p>Noite <input type="radio" name="OpcaoProgramacao" value="opcaoTarde"></p>
+        </td>
+        <th>Linguagem:</th>
+        <td>
+          <p>HTML<input type="checkbox" name="OpcaoProgramacao" value="html"></p>
+          <p>CSS<input type="checkbox" name="OpcaoProgramacao" value="css"></p>
+          <p>JavaScript<input type="checkbox" name="OpcaoProgramacao" value="javaScript"></p>
+        </td>
+      </tr>
+      <tr>
+        <th>Deixe sua cor favorita aqui:</th>
+        <td>
+          <label for="User">Cor:</label>
+          <p><input type="color" name="corFvorita"></p>
+        </td>
+        <th>Opnião:</th>
+        <td>
+          <textarea name="opniao" rows="4" cols="50">Deixe sua opnião...</textarea>
+        </td>
+      </tr>
+    </table>
+        <p><input type="submit"></p>
+  </form>
+</body>
+</html>

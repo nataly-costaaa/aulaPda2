@@ -1,0 +1,50 @@
+/* https://fonts.googleapis.com/css?family= */
+/* https://fonts.google.com/about */
+
+/* Escolhe uma fonte e escreve o seu nome no link da API */
+/* Exemplo: https://fonts.googleapis.com/css?family=Gentium+Book+Plus*/
+
+/* Exemplo codigo:
+ h1 {
+    text-align: center;
+    color: #003236;
+    font-family: 'Gentium Book Plus', sans-serif;
+}  */
+@charset "utf-8";
+
+body {
+    background-color: #F7F9AC;
+    font-size: 14px;
+    color:navy;
+    font-family: verdana;
+    
+}
+h1 {
+    text-align: center;
+    color: #003236;
+    font-family: 'Gentium Book Plus', sans-serif;
+}
+.corpoDoTexto {
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    font-family: 'Zeyada', sans-serif;
+    margin: 10px;
+}
+.corpoDoTexto a {
+    color: #740001;
+    text-decoration: inherit;
+}
+a {
+    text-decoration: none;
+}
+.corpoDoTexto2 {
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: 2px;
+    font-family: 'Font_Corpo', sans-serif;
+}
+.corpoDoTexto2 a{
+    color: #537402;
+}
+

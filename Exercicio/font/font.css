@@ -1,0 +1,9 @@
+/* Escolhe uma fonte e escreve o seu nome no link da API */
+/* Exemplo: https://fonts.googleapis.com/css?family=Gentium+Book+Plus*/
+
+/* Exemplo codigo: */
+ h1 {
+    text-align: center;
+    color: #003236;
+    font-family: 'Gentium Book Plus', sans-serif;
+} 

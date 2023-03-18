@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.sombras {
+   width: 470px;
+   height: 80px;
+   padding: 30px;
+   background-color: #539a5f;
+
+   /* essa definição aplica sombra na dimenção altura largura na cor padrão do texto */
+   /* box-shadow: 15px 15px; */
+
+   /* PRIMEIRO e SEGUNDO = largura, altura. TERCEIRO = desfoque. QUARTO = raio de propagação. por ultimo a cor */
+   /* box-shadow: 15px 15px 5px #295e3a; */
+
+   /* largura| altura| desfoque| raio de propagação| cor */
+   /* box-shadow: 15px 15px 15px 50px #295e3a; */
+
+   /* inset traz a cor externa para interna (dentro do bloco) */
+   /* box-shadow: 15px 15px 30px 20px #295e3a inset; */
+
+   /*  */
+   /* box-shadow: 15px 15px 5px 5px #295e3a, 30px 30px #029d33, 60px 60px 30px #06da49; */
+
+   box-shadow: #00000033 0px 20px 30px;
+}
+
+#title {
+    padding: 30px;
+    /* color: rgba(red, green, blue, 0.2); */
+
+    /* trabalhar com hsl deixa cores intenssas */
+    /* color: hsla(36, 100%, 38%); */
+
+    /* matiz | saturação | luminosidade | alpha */
+    color: hsla(36, 100%, 38%, 0.5);
+}
